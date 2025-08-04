@@ -2,101 +2,134 @@
 
 
 
-
 /* =========================
    Keyframe Animations
    ========================= */
 @keyframes fadeDropGold {
   from { filter: drop-shadow(0 0 0 rgba(255, 215, 0, 0)); }
-  to { filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9)); }
+  to   { filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9)); }
 }
 
 @keyframes fadeDropRed {
   from { filter: drop-shadow(0 0 0 rgba(255, 0, 0, 0)); }
-  to { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.9)); }
+  to   { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.9)); }
 }
 
 @keyframes fadeDropPurple {
   from { filter: drop-shadow(0 0 0 rgba(186, 85, 211, 0)); }
-  to { filter: drop-shadow(0 0 10px rgba(186, 85, 211, 0.9)); }
+  to   { filter: drop-shadow(0 0 10px rgba(186, 85, 211, 0.9)); }
 }
 
 @keyframes fadeDropBlue {
   from { filter: drop-shadow(0 0 0 rgba(0, 123, 255, 0)); }
-  to { filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.9)); }
+  to   { filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.9)); }
+}
+
+/* =========================
+   Common Hover Transform (Clickable Only)
+   ========================= */
+div[style*="cursor:pointer;"] img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* =========================
    Blue Start Button
    ========================= */
-img[src*="s3s2.png"]:hover {
-  animation: fadeDropBlue 0.6s forwards;
-  transform: scale(1.05);
-  transition: transform 0.2s ease-in-out;
+div[style*="cursor:pointer;"] img[src*="s3s2.png"]:hover {
+  animation: fadeDropBlue 0.6s forwards !important;
 }
 
 /* =========================
-   Purple Info Buttons (Corrected Filenames)
+   Purple Info Buttons (Strong Override)
    ========================= */
-img[src*="s21s25.png"]:hover,
-img[src*="s22s26.png"]:hover,
-img[src*="s23s17.png"]:hover {
-  animation: fadeDropPurple 0.6s forwards;
-  transform: scale(1.05);
-  transition: transform 0.2s ease-in-out;
+div[style*="cursor:pointer;"] img[src*="s21s25.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s22s26.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s17.png"]:hover {
+  animation: fadeDropPurple 0.6s forwards !important;
 }
 
 /* =========================
-   Red X Buttons (Corrected Filenames)
+   Gold for All Remaining Clickable Buttons
    ========================= */
-img[src*="s17s15.png"]:hover,
-img[src*="s19s39.png"]:hover,
-img[src*="s20s17.png"]:hover,
-img[src*="s22s38.png"]:hover,
-img[src*="s23s30.png"]:hover,
-img[src*="s24s27.png"]:hover,
-img[src*="s35s20.png"]:hover,
+div[style*="cursor:pointer;"]:hover img:not([src*="s3s2.png"]):not([src*="s21s25.png"]):not([src*="s22s26.png"]):not([src*="s23s17.png"]):not([src*="s17s15.png"]):not([src*="s19s39.png"]):not([src*="s20s17.png"]):not([src*="s22s38.png"]):not([src*="s23s30.png"]):not([src*="s24s27.png"]):not([src*="s35s20.png"]):not([src*="s46s17.png"]):not([src*="s18s5.png"]):not([src*="s19s33.png"]):not([src*="s19s45.png"]):not([src*="s21s9.png"]):not([src*="s21s15.png"]):not([src*="s21s23.png"]):not([src*="s21s28.png"]):not([src*="s21s29.png"]):not([src*="s22s15.png"]):not([src*="s22s28.png"]):not([src*="s23s15.png"]):not([src*="s23s19.png"]):not([src*="s23s24.png"]):not([src*="s23s28.png"]):not([src*="s24s19.png"]):not([src*="s25s4.png"]):not([src*="s25s18.png"]):not([src*="s25s27.png"]):not([src*="s35s12.png"]):not([src*="s35s19.png"]):not([src*="s45s7.png"]):not([src*="s46s14.png"]):not([src*="s46s21.png"]) {
+  animation: fadeDropGold 0.6s forwards;
+}
 
-img[src*="s46s17.png"]:hover,
+/* =========================
+   Red X Buttons (Strong Override)
+   ========================= */
+div[style*="cursor:pointer;"] img[src*="s17s15.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s19s39.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s20s17.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s22s38.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s30.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s24s27.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s35s20.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s46s17.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s18s5.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s19s33.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s19s45.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s21s9.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s21s15.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s21s23.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s21s28.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s21s29.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s22s15.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s22s28.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s15.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s19.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s24.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s23s28.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s24s19.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s25s4.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s25s18.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s25s27.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s35s12.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s35s19.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s45s7.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s46s14.png"]:hover,
+div[style*="cursor:pointer;"] img[src*="s46s21.png"]:hover {
+  animation: fadeDropRed 0.6s forwards !important;
+}
 
 
 
+/* Constant purple pulse on the container holding s24s3 */
+#s24s3,
+#s24s3c {
+  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
+  animation: pulsePurpleSlow 4s infinite alternate;
+}
+
+@keyframes pulsePurpleSlow {
+  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
+  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
+}
 
 
 
+/* Constant purple pulse on the container holding s25s41 */
+#s25s41,
+#s25s41c {
+  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
+  animation: pulsePurpleSlow 4s infinite alternate;
+}
+
+@keyframes pulsePurpleSlow {
+  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
+  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
+}
 
 
+/* Constant purple pulse on the container holding s46s22 */
+#s46s22,
+#s46s22c {
+  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
+  animation: pulsePurpleSlow 4s infinite alternate;
+}
 
-
-   img[src*="s18s5.png"]:hover,
-img[src*="s19s33.png"]:hover,
-img[src*="s19s45.png"]:hover,
-
-img[src*="s21s9.png"]:hover,
-img[src*="s21s15.png"]:hover,
-img[src*="s21s23.png"]:hover,
-img[src*="s21s28.png"]:hover,
-img[src*="s21s29.png"]:hover,
-img[src*="s22s15.png"]:hover,
-
-img[src*="s22s28.png"]:hover,
-img[src*="s23s15.png"]:hover,
-img[src*="s23s19.png"]:hover,
-img[src*="s23s24.png"]:hover,
-img[src*="s23s28.png"]:hover,
-
-
-img[src*="s24s19.png"]:hover,
-img[src*="s25s4.png"]:hover,
-img[src*="s25s18.png"]:hover,
-img[src*="s25s27.png"]:hover,
-img[src*="s35s12.png"]:hover,
-img[src*="s35s19.png"]:hover,
-
-img[src*="s45s7.png"]:hover,
-img[src*="s46s14.png"]:hover,
-img[src*="s46s21.png"]:hover {
-  animation: fadeDropRed 0.6s forwards;
-  transform: scale(1.05);
-  transition: transform 0.2s ease-in-out;
+@keyframes pulsePurpleSlow {
+  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
+  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
 }
