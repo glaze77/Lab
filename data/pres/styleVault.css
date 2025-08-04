@@ -1,4 +1,6 @@
-.SC{height: 540px;width: 960px;display:none;overflow:hidden;}.DopPhAnchor{position:absolute;white-space:nowrap;border:none;outline:none;}.DopPhAnchor img{border:none;outline:none;}.svgC, .svgC svg{height:100%; width:100%}Div > *{pointer-events:all;}div.mediacontrol { min-width: 200px; height: 35px; } div.mediacontrol:hover { opacity: 1; } div.mediacontrol:hover .mediacontrolleft { background-color: rgba(118, 118, 118,0.75); } div.mediacontrol:hover .mediacontrolright { background-color: rgba(118, 118, 118,0.75); } div.mediacontrolleft, div.mediacontrolright { background-color: rgba(118, 118, 118,0.50); border-radius: 7px; } div.mediacontrolleft { width: 35px; height: 100%; } .mediaplaybutton:hover path { fill: rgba(255,175,65,0.75); } .mediaplaybutton:hover rect { fill: rgba(255,175,65,0.75); } .mediafullbutton:hover path { stroke: rgba(255,175,65,0.75); } div.mediacontrolright { width: calc(100% - 40px); height: 100%; left: 40px; } .hiddenControl { visibility: hidden; } .mediavolume { width: 35px; height: 100%; left: calc(100% - 40px); } .mediafullscreen { width: 35px; height: 100%; left: calc(100% - 40px); } .mediaprogress { width: calc(100% - 47px); height: calc(100% - 8px); left: 4px; top: 4px; border-radius: 4px; background-color: rgba(200,200, 200,0.35); text-align: center; cursor: pointer; } .mediaprogressbar { left: 4px; top: 4px; height: calc(100% - 8px); background-color: rgba(200,200, 200,0.65); pointer-events: none; } .progresstextdiv { left: 4px; top: 4px; height: calc(100% - 8px); width: calc(100% - 8px); } .progresstext { text-align: center; color: black; font-size: 14px; pointer-events: none; text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important; } /*tooltip*/ .tooltiptext { top: -40px; position: absolute; width: 80px; background-color: rgba(0,0,0,0.5); color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; z-index: 1; visibility: hidden } .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: rgba(0,0,0,0.5) transparent transparent transparent; } .mediaprogress:hover .tooltiptext { visibility: visible; } .mediavolumecontrol { top: -72px; width: 30px; height: 70px; margin-left: 2.5px; background-color: rgba(118, 118, 118,0.75); border-radius: 6px; } .mediavolumecontrol::after { content: ""; position: absolute; top: 100%; height: 2px; width: 100%; background-color: rgba(0,0,0,0.05); } .mediavolumeslider { top: 7px; height: 56px; left: 13.5px; width: 3px; background-color: rgb(255,255,255); border-radius: 3px; cursor: pointer; } .mediavolumesliderpoint { height: 10px; width: 10px; border-radius: 10px; left: -4.5px; background-color: rgb(255,255,255); border-color: rgb(128,128,128); border-width: 0.5px; border-style: solid; cursor: pointer; } .mediavolumesliderpoint:hover { background-color: rgba(255,175,65,1);}.pre086a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:40px;color:#FFFFFF;font-family: "Aptos", Font086a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:49px;}.pre186a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:16px;color:#FFFFFF;font-family: "Arial", Font186a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:18px;}.pre286a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:14px;color:#FFFFFF;font-family: "Arial", Font186a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:16px;}.pre386a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:16px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:20px;}.pre486a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:26px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:32px;}.pre586a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:18px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:22px;}.pre686a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:18px;color:#FFFFFF;font-family: "Arial", Font186a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:21px;}.pre786a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:26px;color:#FFFFFF;font-family: "Arial", Font186a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:30px;}.pre886a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:20px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:25px;}.pre986a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:14px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:18px;}.pre1086a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:16px;color:#FFFFFF;font-family: Font386a4faa6-e2d1-4207-a9dc-c114acb7f520, "Calibri";font-weight:bold;line-height:20px;}.pre1186a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:16px;color:#FFFFFF;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:20px;}.pre1286a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:16px;color:#FFFFFF;text-decoration:underline;font-family: "Calibri", Font286a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:20px;}.pre1386a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:14px;color:#FFFFFF;font-family: Font386a4faa6-e2d1-4207-a9dc-c114acb7f520, "Calibri";font-weight:bold;line-height:18px;}.pre1486a4faa6-e2d1-4207-a9dc-c114acb7f520{font-size:22px;color:#FFFFFF;font-family: "Aptos", Font086a4faa6-e2d1-4207-a9dc-c114acb7f520;line-height:27px;}.preR086a4faa6-e2d1-4207-a9dc-c114acb7f520{-o-transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);transform:rotate(90deg);}
+.SC{height: 540px;width: 960px;display:none;overflow:hidden;}.DopPhAnchor{position:absolute;white-space:nowrap;border:none;outline:none;}.DopPhAnchor img{border:none;outline:none;}.svgC, .svgC svg{height:100%; width:100%}Div > *{pointer-events:all;}div.mediacontrol { min-width: 200px; height: 35px; } div.mediacontrol:hover { opacity: 1; } div.mediacontrol:hover .mediacontrolleft { background-color: rgba(118, 118, 118,0.75); } div.mediacontrol:hover .mediacontrolright { background-color: rgba(118, 118, 118,0.75); } div.mediacontrolleft, div.mediacontrolright { background-color: rgba(118, 118, 118,0.50); border-radius: 7px; } div.mediacontrolleft { width: 35px; height: 100%; } .mediaplaybutton:hover path { fill: rgba(255,175,65,0.75); } .mediaplaybutton:hover rect { fill: rgba(255,175,65,0.75); } .mediafullbutton:hover path { stroke: rgba(255,175,65,0.75); } div.mediacontrolright { width: calc(100% - 40px); height: 100%; left: 40px; } .hiddenControl { visibility: hidden; } .mediavolume { width: 35px; height: 100%; left: calc(100% - 40px); } .mediafullscreen { width: 35px; height: 100%; left: calc(100% - 40px); } .mediaprogress { width: calc(100% - 47px); height: calc(100% - 8px); left: 4px; top: 4px; border-radius: 4px; background-color: rgba(200,200, 200,0.35); text-align: center; cursor: pointer; } .mediaprogressbar { left: 4px; top: 4px; height: calc(100% - 8px); background-color: rgba(200,200, 200,0.65); pointer-events: none; } .progresstextdiv { left: 4px; top: 4px; height: calc(100% - 8px); width: calc(100% - 8px); } .progresstext { text-align: center; color: black; font-size: 14px; pointer-events: none; text-shadow: 1px 1px 1px rgba(0,0,0,0.004) !important; } /*tooltip*/ .tooltiptext { top: -40px; position: absolute; width: 80px; background-color: rgba(0,0,0,0.5); color: #fff; text-align: center; border-radius: 6px; padding: 5px 0; z-index: 1; visibility: hidden } .tooltiptext::after { content: ""; position: absolute; top: 100%; left: 50%; margin-left: -5px; border-width: 5px; border-style: solid; border-color: rgba(0,0,0,0.5) transparent transparent transparent; } .mediaprogress:hover .tooltiptext { visibility: visible; } .mediavolumecontrol { top: -72px; width: 30px; height: 70px; margin-left: 2.5px; background-color: rgba(118, 118, 118,0.75); border-radius: 6px; } .mediavolumecontrol::after { content: ""; position: absolute; top: 100%; height: 2px; width: 100%; background-color: rgba(0,0,0,0.05); } .mediavolumeslider { top: 7px; height: 56px; left: 13.5px; width: 3px; background-color: rgb(255,255,255); border-radius: 3px; cursor: pointer; } .mediavolumesliderpoint { height: 10px; width: 10px; border-radius: 10px; left: -4.5px; background-color: rgb(255,255,255); border-color: rgb(128,128,128); border-width: 0.5px; border-style: solid; cursor: pointer; } .mediavolumesliderpoint:hover { background-color: rgba(255,175,65,1);}.pre0b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:40px;color:#FFFFFF;font-family: "Aptos", Font0b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:49px;}.pre1b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:16px;color:#FFFFFF;font-family: "Arial", Font1b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:18px;}.pre2b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:14px;color:#FFFFFF;font-family: "Arial", Font1b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:16px;}.pre3b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:16px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:20px;}.pre4b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:26px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:32px;}.pre5b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:18px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:22px;}.pre6b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:18px;color:#FFFFFF;font-family: "Arial", Font1b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:21px;}.pre7b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:26px;color:#FFFFFF;font-family: "Arial", Font1b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:30px;}.pre8b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:20px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:25px;}.pre9b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:14px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:18px;}.pre10b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:16px;color:#FFFFFF;font-family: Font3b1ee67b6-a95c-4efa-82fa-beefda2273fa, "Calibri";font-weight:bold;line-height:20px;}.pre11b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:16px;color:#FFFFFF;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:20px;}.pre12b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:16px;color:#FFFFFF;text-decoration:underline;font-family: "Calibri", Font2b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:20px;}.pre13b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:14px;color:#FFFFFF;font-family: Font3b1ee67b6-a95c-4efa-82fa-beefda2273fa, "Calibri";font-weight:bold;line-height:18px;}.pre14b1ee67b6-a95c-4efa-82fa-beefda2273fa{font-size:22px;color:#FFFFFF;font-family: "Aptos", Font0b1ee67b6-a95c-4efa-82fa-beefda2273fa;line-height:27px;}.preR0b1ee67b6-a95c-4efa-82fa-beefda2273fa{-o-transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);transform:rotate(90deg);}
+
+
 
 
 /* =========================
@@ -6,129 +8,95 @@
    ========================= */
 @keyframes fadeDropGold {
   from { filter: drop-shadow(0 0 0 rgba(255, 215, 0, 0)); }
-  to   { filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9)); }
+  to { filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.9)); }
 }
 
 @keyframes fadeDropRed {
   from { filter: drop-shadow(0 0 0 rgba(255, 0, 0, 0)); }
-  to   { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.9)); }
+  to { filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.9)); }
 }
 
 @keyframes fadeDropPurple {
   from { filter: drop-shadow(0 0 0 rgba(186, 85, 211, 0)); }
-  to   { filter: drop-shadow(0 0 10px rgba(186, 85, 211, 0.9)); }
+  to { filter: drop-shadow(0 0 10px rgba(186, 85, 211, 0.9)); }
 }
 
 @keyframes fadeDropBlue {
   from { filter: drop-shadow(0 0 0 rgba(0, 123, 255, 0)); }
-  to   { filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.9)); }
-}
-
-/* =========================
-   Common Hover Transform (Clickable Only)
-   ========================= */
-div[style*="cursor:pointer;"] img:hover {
-  transform: scale(1.05);
-  transition: transform 0.2s ease-in-out;
+  to { filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.9)); }
 }
 
 /* =========================
    Blue Start Button
    ========================= */
-div[style*="cursor:pointer;"] img[src*="s3s2.png"]:hover {
-  animation: fadeDropBlue 0.6s forwards !important;
+img[src*="s3s2.png"]:hover {
+  animation: fadeDropBlue 0.6s forwards;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* =========================
-   Purple Info Buttons (Strong Override)
+   Purple Info Buttons (Corrected Filenames)
    ========================= */
-div[style*="cursor:pointer;"] img[src*="s21s25.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s22s26.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s17.png"]:hover {
-  animation: fadeDropPurple 0.6s forwards !important;
+img[src*="s21s25.png"]:hover,
+img[src*="s22s26.png"]:hover,
+img[src*="s23s17.png"]:hover {
+  animation: fadeDropPurple 0.6s forwards;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* =========================
-   Gold for All Remaining Clickable Buttons
+   Red X Buttons (Corrected Filenames)
    ========================= */
-div[style*="cursor:pointer;"]:hover img:not([src*="s3s2.png"]):not([src*="s21s25.png"]):not([src*="s22s26.png"]):not([src*="s23s17.png"]):not([src*="s17s15.png"]):not([src*="s19s39.png"]):not([src*="s20s17.png"]):not([src*="s22s38.png"]):not([src*="s23s30.png"]):not([src*="s24s27.png"]):not([src*="s35s20.png"]):not([src*="s46s17.png"]):not([src*="s18s5.png"]):not([src*="s19s33.png"]):not([src*="s19s45.png"]):not([src*="s21s9.png"]):not([src*="s21s15.png"]):not([src*="s21s23.png"]):not([src*="s21s28.png"]):not([src*="s21s29.png"]):not([src*="s22s15.png"]):not([src*="s22s28.png"]):not([src*="s23s15.png"]):not([src*="s23s19.png"]):not([src*="s23s24.png"]):not([src*="s23s28.png"]):not([src*="s24s19.png"]):not([src*="s25s4.png"]):not([src*="s25s18.png"]):not([src*="s25s27.png"]):not([src*="s35s12.png"]):not([src*="s35s19.png"]):not([src*="s45s7.png"]):not([src*="s46s14.png"]):not([src*="s46s21.png"]) {
-  animation: fadeDropGold 0.6s forwards;
-}
+img[src*="s17s15.png"]:hover,
+img[src*="s19s39.png"]:hover,
+img[src*="s20s17.png"]:hover,
+img[src*="s22s38.png"]:hover,
+img[src*="s23s30.png"]:hover,
+img[src*="s24s27.png"]:hover,
+img[src*="s35s20.png"]:hover,
 
-/* =========================
-   Red X Buttons (Strong Override)
-   ========================= */
-div[style*="cursor:pointer;"] img[src*="s17s15.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s19s39.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s20s17.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s22s38.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s30.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s24s27.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s35s20.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s46s17.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s18s5.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s19s33.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s19s45.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s21s9.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s21s15.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s21s23.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s21s28.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s21s29.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s22s15.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s22s28.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s15.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s19.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s24.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s23s28.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s24s19.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s25s4.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s25s18.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s25s27.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s35s12.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s35s19.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s45s7.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s46s14.png"]:hover,
-div[style*="cursor:pointer;"] img[src*="s46s21.png"]:hover {
-  animation: fadeDropRed 0.6s forwards !important;
-}
+img[src*="s46s17.png"]:hover,
 
 
 
-/* Constant purple pulse on the container holding s24s3 */
-#s24s3,
-#s24s3c {
-  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
-  animation: pulsePurpleSlow 4s infinite alternate;
-}
-
-@keyframes pulsePurpleSlow {
-  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
-  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
-}
 
 
 
-/* Constant purple pulse on the container holding s25s41 */
-#s25s41,
-#s25s41c {
-  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
-  animation: pulsePurpleSlow 4s infinite alternate;
-}
-
-@keyframes pulsePurpleSlow {
-  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
-  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
-}
 
 
-/* Constant purple pulse on the container holding s46s22 */
-#s46s22,
-#s46s22c {
-  filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.6));
-  animation: pulsePurpleSlow 4s infinite alternate;
-}
 
-@keyframes pulsePurpleSlow {
-  from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
-  to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
+
+   img[src*="s18s5.png"]:hover,
+img[src*="s19s33.png"]:hover,
+img[src*="s19s45.png"]:hover,
+
+img[src*="s21s9.png"]:hover,
+img[src*="s21s15.png"]:hover,
+img[src*="s21s23.png"]:hover,
+img[src*="s21s28.png"]:hover,
+img[src*="s21s29.png"]:hover,
+img[src*="s22s15.png"]:hover,
+
+img[src*="s22s28.png"]:hover,
+img[src*="s23s15.png"]:hover,
+img[src*="s23s19.png"]:hover,
+img[src*="s23s24.png"]:hover,
+img[src*="s23s28.png"]:hover,
+
+
+img[src*="s24s19.png"]:hover,
+img[src*="s25s4.png"]:hover,
+img[src*="s25s18.png"]:hover,
+img[src*="s25s27.png"]:hover,
+img[src*="s35s12.png"]:hover,
+img[src*="s35s19.png"]:hover,
+
+img[src*="s45s7.png"]:hover,
+img[src*="s46s14.png"]:hover,
+img[src*="s46s21.png"]:hover {
+  animation: fadeDropRed 0.6s forwards;
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
 }
