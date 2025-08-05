@@ -195,3 +195,19 @@ div[style*="cursor:pointer;"] img[src*="s46s21.png"]:hover {
   from { filter: drop-shadow(0 0 6px rgba(186, 85, 211, 0.4)); }
   to   { filter: drop-shadow(0 0 14px rgba(186, 85, 211, 0.8)); }
 }
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+body {
+  padding-top: env(safe-area-inset-top, 0);
+  padding-bottom: env(safe-area-inset-bottom, 0);
+  padding-left: env(safe-area-inset-left, 0);
+  padding-right: env(safe-area-inset-right, 0);
+}
