@@ -16,7 +16,8 @@
             .DC1 { top: 0px; left: 0px; height: 100%; width: 100%; opacity: 1; }
             .DC0 { top: 0px; left: 0px; height: 100%; width: 100%; opacity: 0; }
             ::selection { background-color: transparent; }
-            ::-moz-selection { } canvas { position: absolute; } 
+            ::-moz-selection { }
+            canvas { position: absolute; } 
             div, iframe { position: absolute; }
             pre { position: absolute; margin: 0px; letter-spacing: -0.04px; -ms-transform-origin: 0 0; -webkit-transform-origin: 0 0; -moz-transform-origin: 0 0; -o-transform-origin: 0 0; }
             img { position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; }
@@ -39,11 +40,11 @@
                 padding: 5px;
                 font-size: 16px;
                 cursor: pointer;
-                text-align: left; /* Align text to the left */
-                display: flex; /* Use flexbox */
-                align-items: center; /* Vertically center the items */
-                justify-content: flex-start; /* Align items to the left */
-                gap: 10px; /* Space between icon and text */
+                text-align: left;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 10px;
                 box-shadow: 
                     3px 3px 8px rgba(0, 0, 0, 0.15),
                     inset -3px -3px 8px rgba(255, 255, 255, 0.3),
@@ -70,13 +71,18 @@
             #fullscreenButton {
                 top: 10px; 
                 right: 10px;
-                margin-left: 5px; /* Space between button and content below */
+                margin-left: 5px;
             }
 
-          
-
             .button-icon {
-                font-size: 24px; /* Increase icon size */
+                font-size: 24px;
+            }
+
+            /* --- Hide Fullscreen Button on iOS (CSS-only, optional) --- */
+            @media screen and (max-width:1024px) {
+              html.ios #fullscreenButton {
+                  display: none !important;
+              }
             }
         </style>
     </head>
@@ -93,9 +99,20 @@
             <span class="fas fa-expand button-icon" style="color: #ffcc00;"></span>   Full<br>Screen
         </button>
 
-       
-
         <script>
+            // Hide Fullscreen Button on iOS
+            (function() {
+                var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                if (isIOS) {
+                    // Add .ios class to html for optional CSS hiding
+                    document.documentElement.classList.add("ios");
+                    // JS fallback: hide immediately
+                    var fsBtn = document.getElementById("fullscreenButton");
+                    if (fsBtn) fsBtn.style.display = "none";
+                }
+            })();
+
+            // Fullscreen logic
             const fullscreenButton = document.getElementById('fullscreenButton');
             fullscreenButton.addEventListener('click', () => {
                 const player = document.getElementById('player');
